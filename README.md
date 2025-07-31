@@ -16,8 +16,9 @@ This was an specialized experiment to build an SQL generator using new LLMs. The
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
 2. Run the AvocadoSQLCreateFile.sql file to create the dataset on your choice of SQL platform.
 3. Create a file called "secret_key.py" to store the following information: openapi_key, db_user, db_password, db_host, db_name.
-4. Run "streamlit run main.py" to initiate the Streamlit UI.
-5. Write down your question in the text box and press enter.
+   - Update: Added a function to input OpenAI API key from the UI.
+5. Run "streamlit run main.py" to initiate the Streamlit UI.
+6. Write down your question in the text box and press enter.
 
 Additional step: Run pip install -r requirements.txt to install the libraries required to run the repo
 
